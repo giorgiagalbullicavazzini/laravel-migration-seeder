@@ -7,10 +7,12 @@
         <title>Laravel</title>
 
         {{-- Include Assets --}}
-        @vite('resources/js/app.js');
+        @vite('resources/js/app.js')
     </head>
 
     <body>
-        
+        <div class="container">
+            <h1>{{ $data }}</h1>
+        </div>
     </body>
 </html>
