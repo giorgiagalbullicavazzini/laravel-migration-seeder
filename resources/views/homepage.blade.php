@@ -12,8 +12,10 @@
 
     <body>
         <div class="container">
-            <h1>Database treni</h1>
-            <table class="table">
+            <h1 class="text-center">Database treni</h1>
+
+            {{-- Trains table --}}
+            <table class="table mt-5">
                 <thead>
                   <tr>
                     <th scope="col">ID</th>
